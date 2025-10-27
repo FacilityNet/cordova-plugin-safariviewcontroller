@@ -1,16 +1,20 @@
 {
-  "name": "cordova-plugin-safariviewcontroller",
-  "version": "2.0.0",
+  "name": "@facilitynet/cordova-plugin-safariviewcontroller",
+  "version": "2.1.1",
   "description": "Forget InAppBrowser for iOS - this is way better for displaying read-only web content in your PhoneGap app.",
   "cordova": {
     "id": "cordova-plugin-safariviewcontroller",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller.git"
+    "url": "git+https://github.com/FacilityNet/cordova-plugin-safariviewcontroller.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "InAppBrowser",
@@ -22,14 +26,8 @@
     "cordova-ios",
     "cordova-android"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "license": "MIT",
+  "author": "Facilitynet Team",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller/issues"
   },
